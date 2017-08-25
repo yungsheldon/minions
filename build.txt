@@ -1,0 +1,3 @@
+author = 5
+version = 0.1
+displayName = Minions Mod
