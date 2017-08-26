@@ -1,7 +1,13 @@
 author = Gru
-version = 0
+
+version = 0.1
+
 displayName = Minions Mod
+
 homepage = https://forums.terraria.org/index.php?threads/minions-mod.61455/
+
 hideCode = true
+
 hideResources = true
+
 includeSource = false
