@@ -1,1 +1,3 @@
-Minions mod is an upcoming mod, this version has no content.
+Minions mod is an upcoming content mod, this beta will have minimal content and is for testing purpose.
+
+Bananas are obtained from palm leaves.
