@@ -15,7 +15,7 @@ namespace minions.Buffs
 		public override void SetDefaults()
 		{
 			DisplayName.SetDefault("Loaded Minion Taters");
-			Description.SetDefault("Purchase at IHOP");
+			Description.SetDefault("They said it was chicken?");
 		}
 		
 		public override void Update(Player player, ref int buffIndex)
