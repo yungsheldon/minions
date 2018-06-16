@@ -6,11 +6,11 @@ using Microsoft.Xna.Framework;
 
 namespace minions.Tiles
 {
-    public class BananaDrop : GlobalTile
+    public class BananaDropTwo : GlobalTile
     {
         public override bool Drop(int i, int j, int type)
         {
-            if (type == 62)
+            if (type == 75)
             {
                 if (Main.rand.Next(20) == 0)
                 {
@@ -19,6 +19,6 @@ namespace minions.Tiles
                 }
             }
             return true;
-        }
-    }
+		}
+	}
 }
