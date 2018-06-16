@@ -10,7 +10,7 @@ namespace minions.Items
     {
 		 public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Banana Peel");
+			DisplayName.SetDefault("Banana Basket");
 			Tooltip.SetDefault("You leave a trail of 'slipping' bananas, which push enemies back slightly and then disappear");
 		}
         public override void SetDefaults()
@@ -18,7 +18,7 @@ namespace minions.Items
             item.width = 26;
             item.height = 26;
             item.value = 10000;
-            item.rare = 2;
+            item.rare = 1;
             item.accessory = true;
         }
 		

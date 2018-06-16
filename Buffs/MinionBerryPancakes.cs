@@ -15,7 +15,7 @@ namespace minions.Buffs
 		public override void SetDefaults()
 		{
 			DisplayName.SetDefault("Minion Berry Pancakes");
-			Description.SetDefault("Good stuff");
+			Description.SetDefault("Sauteed with banana");
 		}
 		
 		public override void Update(Player player, ref int buffIndex)

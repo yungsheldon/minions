@@ -35,7 +35,7 @@ namespace minions
 			if (bananaPeel == true)
 			{
 				bananaPeelTimer++;
-				if (bananaPeelTimer == 480)
+				if (bananaPeelTimer == 350)
 				{
 					bananaPeelTimer = 0;
 					Projectile.NewProjectile(player.Center.X, player.Center.Y, 0f, 0f, mod.ProjectileType("BananaPeelProj"), 5, 15, player.whoAmI);

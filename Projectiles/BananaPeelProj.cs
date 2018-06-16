@@ -44,5 +44,15 @@ namespace minions.Projectiles
 					projectile.velocity.Y = 1;
 				}
 		}
-    }
+		public override void Kill(int timeLeft)
+		{
+			for (int i = 0; i < 10; i++)
+			{
+				int dust = Dust.NewDust(projectile.position, projectile.width, projectile.height, 142);
+				Main.dust[dust].scale = 1.5f;
+				Main.dust[dust].noGravity = true;
+			}
+			Main.PlaySound(2, (int)projectile.position.X, (int)projectile.position.Y, 2);
+		}
+	}
 }

@@ -15,7 +15,7 @@ namespace minions.Items
 			item.height = 10;
 			item.noMelee = true; 
 			item.value = 10000;
-			item.rare = 1;
+			item.rare = 0;
 			item.scale = 0.75f;
 			item.maxStack = 999;
 		}
@@ -23,7 +23,7 @@ namespace minions.Items
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Banana");
-			Tooltip.SetDefault("A minion's favorite fruit");
+			Tooltip.SetDefault("'A minion's favorite fruit'");
 		}
 	}
 }

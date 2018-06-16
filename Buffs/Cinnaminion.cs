@@ -15,7 +15,7 @@ namespace minions.Buffs
 		public override void SetDefaults()
 		{
 			DisplayName.SetDefault("Cinnaminion");
-			Description.SetDefault("Tasty like a banana");
+			Description.SetDefault("Tasty like bananas");
 		}
 		
 		public override void Update(Player player, ref int buffIndex)

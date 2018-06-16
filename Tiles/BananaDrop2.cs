@@ -10,7 +10,7 @@ namespace minions.Tiles
     {
         public override bool Drop(int i, int j, int type)
         {
-            if (type == 75)
+            if (type == 75) //5% chance that break large jungle flowers will drop a banana
             {
                 if (Main.rand.Next(20) == 0)
                 {
